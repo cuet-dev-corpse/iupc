@@ -30,8 +30,8 @@ export default function Schedule() {
                             <div
                                 key={i}
                                 onClick={() => setItems(items[0] != i ? [i, items1[i]] : items)}
-                                className={`bg-[#fff3] text-white py-4 rounded-md border-2 ${i % 2 == items[0] ? `border-${e[1]}` : 'border-0'} cursor-pointer shadow-xl`}>
-                                <div className={`bg-${e[1]} text-xs text-white inline-block md:px-4 px-2 py-1 rounded-r-3xl`}>Day 0{i+1}</div>
+                                className={`bg-[#fff3] text-white py-4 rounded-md border-2 ${i == items[0] ? (!i?'border-blue-500':'border-green-500') : '!border-0'} cursor-pointer shadow-xl`}>
+                                <div className={`${i?'bg-green-500':'bg-blue-500'} text-xs text-white inline-block md:px-4 px-2 py-1 rounded-r-3xl`}>Day 0{i+1}</div>
                                 <div className='flex items-center gap-3 px-4'>
                                     <span className='md:text-5xl text-2xl font-bold'>{e[0]}</span>
                                     <span className='flex flex-col justify-center items-center'>
