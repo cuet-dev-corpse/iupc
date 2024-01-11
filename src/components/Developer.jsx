@@ -10,7 +10,7 @@ export default function Developer() {
                 developers.map((e,i)=>(
                     <div className="glass flex items-center p-4 gap-4">
                         <div className='h-[70px] aspect-square rounded-full bg-gray-500'>
-                            <img className='object-fit h-full w-full rounded-full' src={e.img} alt="" />
+                            {e.img && <img className='object-fit h-full w-full rounded-full' src={e.img} alt="" />}
                         </div>
                         <a href={e.linkedin} target='blank' className='flex font-semibold items-center'>
                             <FaLinkedin className='text-xl mr-2 cursor-pointer'/>
