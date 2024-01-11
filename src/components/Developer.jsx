@@ -38,6 +38,6 @@ const developers=[
     {
         img: '',
         name: 'Zarif',
-        linkedin: '',
+        linkedin: ' ',
     },
 ]
