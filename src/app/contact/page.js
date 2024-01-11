@@ -16,7 +16,7 @@ export default function Contact() {
             <div>
               <p className="font-medium text-xl mb-2">Contact</p>
               {
-                [['Md. Al-Amin Bhuiyan', '01517814658'], ['Md. Rakib Alam Bappi', '01521797961']].map((vai, i) => (
+                items.map((vai, i) => (
                   <div key={i} className="flex gap-3 mb-1 items-center">
                     <FaPhoneAlt />
                     <div>
@@ -57,4 +57,12 @@ const socials = [
   [<FaFacebook className="text-2xl" />, 'https://www.facebook.com/profile.php?id=61555337101476'],
   [<FaFacebookMessenger className="text-2xl" />, 'https://www.facebook.com/messages/t/202387086292069'],
   [<IoIosMail className="text-3xl" />, 'mailto:iupc.cuet.codestorm@gmail.com']
+]
+
+const items = [
+  ['Md. Al-Amin Bhuiyan', '01517814658'],
+  ['Md. Rakib Alam Bappi', '01521797961'],
+  ['Fahimul Alam Araf', '01614246654'],
+  ['Md Ashraful Alam', '01625400218'],
+  ['Nidita Roy', '01766456696'],
 ]
