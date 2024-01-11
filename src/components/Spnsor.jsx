@@ -29,7 +29,7 @@ const sponsors=[
     },
     {
         img: './braincraft.png', 
-        title: 'Kinetik Healthcare Solutions', 
+        title: 'Brain Craft Limited', 
         desc:'Brain Craft Limited is a software development company currently specializing in Mobile applications development in the iOS App Store and the Google Play Store.',
     },
 ]
