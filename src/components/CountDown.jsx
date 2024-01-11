@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 
 export default function CountDown() {
     return (
-        <div className='flex justify-center items-center lg:mt-[-40px] sm:mt-0 mt-[-35px]'>
+        <div className='flex justify-center items-center xl:mt-[-30px] sm:mt-4 mt-[-35px]'>
             <Countdown
                 date={new Date('2024-01-26 01:02:03 GMT+0600')}
                 renderer={renderer}

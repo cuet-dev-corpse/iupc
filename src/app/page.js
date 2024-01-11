@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner";
-import CountDown from "@/components/CountDown";
+import Partner from "@/components/Partner";
 import Schedule from "@/components/Schedule";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Banner/>
       <Schedule/>
+      <Partner/>
     </>
   )
 }

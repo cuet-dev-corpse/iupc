@@ -30,7 +30,7 @@ export default function Schedule() {
                             <div
                                 key={i}
                                 onClick={() => setItems(items[0] != i ? [i, items1[i]] : items)}
-                                className={`bg-[#fff3] text-white py-4 rounded-md border-2 ${i == items[0] ? (!i?'border-blue-500':'border-green-500') : '!border-0'} cursor-pointer shadow-xl`}>
+                                className={`bg-[#fff3] text-white py-4 rounded-md border-2 ${i == items[0] ? (!i?'border-blue-500':'border-green-500') : 'border-transparent'} !cursor-pointer`}>
                                 <div className={`${i?'bg-green-500':'bg-blue-500'} text-xs text-white inline-block md:px-4 px-2 py-1 rounded-r-3xl`}>Day 0{i+1}</div>
                                 <div className='flex items-center gap-3 px-4'>
                                     <span className='md:text-5xl text-2xl font-bold'>{e[0]}</span>
@@ -46,19 +46,19 @@ export default function Schedule() {
                 <div class="max-w-[800px] w-full mx-auto px-2 md:mt-8 mt-0">
 
                     <div class="relative text-sm">
-                        <div class="block w-1 bg-blue-300 absolute h-[80%] top-5 sm:left-1/2 left-10 transform -translate-x-1/2"></div>
+                        <div class="block w-[2px] glass absolute h-[80%] top-5 sm:left-1/2 left-10 transform -translate-x-1/2"></div>
                         {
                             items[1].map((item, i) => (
                                 <div key={i} class="mt-6 mb-16">
                                     <div class='flex flex-col sm:flex-row items-center text-xs md:text-sm'>
                                         <div class={`flex ${i % 2 ? 'sm:justify-end' : 'sm:justify-start'} w-full mx-auto items-center`}>
                                             <div class={`sm:w-1/2 ${i % 2 ? 'sm:pl-16 pl-24' : 'sm:pr-16 sm:pl-0 pl-24 !sm-pl-0 sm:text-right'}`}>
-                                                <div class="p-4 bg-white rounded shadow text-gray-700">
+                                                <div class="p-4 glass text-white rounded shadow">
                                                     <div className="font-medium">{item.title}</div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class={`rounded-full bg-blue-500 border-white border-4 absolute sm:left-1/2 left-0 sm:translate-y-0 -translate-y-4 transform sm:-translate-x-1/2 flex items-center justify-center flex-col aspect-square p-2`}>
+                                        <div class={`glass !rounded-full !border-blue-500 font-semibold !border-2 !border-dashed absolute sm:left-1/2 left-0 sm:translate-y-0 -translate-y-4 transform sm:-translate-x-1/2 flex items-center justify-center flex-col aspect-square p-3`}>
                                             <span>{item.start}</span>
                                             <span>{item.end}</span>
                                         </div>
@@ -95,13 +95,13 @@ const items1 = [
     ],
     [
         {
-            start: '9: 00 AM',
-            end: '2: 00 PM',
+            start: '09: 00 AM',
+            end: '02: 00 PM',
             title: 'Programming Contest (National)',
         },
         {
-            start: '3: 00 PM',
-            end: '5: 00 PM',
+            start: '03: 00 PM',
+            end: '05: 00 PM',
             title: 'Closing Ceremony & Prize Giving',
         },
     ]
