@@ -26,7 +26,7 @@ export default function Schedule() {
             <div className="py-6 flex flex-col justify-center sm:py-12 mt-8">
                 <div className='flex items-center justify-center gap-4'>
                     {
-                        [[23, 'blue-500'], [24, 'green-500']].map((e, i) => (
+                        [[25, 'blue-500'], [26, 'green-500']].map((e, i) => (
                             <div
                                 key={i}
                                 onClick={() => setItems(items[0] != i ? [i, items1[i]] : items)}
@@ -35,7 +35,7 @@ export default function Schedule() {
                                 <div className='flex items-center gap-3 px-4'>
                                     <span className='md:text-5xl text-2xl font-bold'>{e[0]}</span>
                                     <span className='flex flex-col justify-center items-center'>
-                                        <span className='md:text-xl text-xs font-medium'>NOV</span>
+                                        <span className='md:text-xl text-xs font-medium'>JAN</span>
                                         <span className='text-xs md:text-sm'>2024</span>
                                     </span>
                                 </div>

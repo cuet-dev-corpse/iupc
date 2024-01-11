@@ -32,7 +32,7 @@ export default function Contact() {
               <div className='flex gap-4 items-center'>
                 {
                   socials.map((social, i) => (
-                    <a href={social[1]} key={i}>
+                    <a href={social[1]} target="blank" key={i}>
                       {social[0]}
                     </a>
                   ))

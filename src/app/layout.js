@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
     <html>
       <body className={`${inter2.className} ${inter.className}`}>
         <Nav />
-        <img className='fixed z-[-1] opacity-10 top-0' src='./side.png' alt='side image'/>
+        <div className='flex justify-center'>
+          <img className='fixed z-[-1] opacity-10 top-0' src='./side.png' alt='side image' />
+        </div>
         {/* <img className='fixed opacity-40 top-[-360px] left-[-35%] rotate-[-140deg]' src='./side2.png' alt='side image'/> */}
         <div className='fixed z-[-1] left-[28%] top-0 h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 blur-3xl filter block opacity-20 lg:top-32 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]'></div>
         <div className='fixed z-[-1] left-[10%] top-50% h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l bg-purple-600 to-indigo-600 blur-3xl filter block opacity-20 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]'></div>

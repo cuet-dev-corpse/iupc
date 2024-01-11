@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <Banner/>
       <Schedule/>
-      <Partner/>
       <Sponsor/>
+      <Partner/>
     </>
   )
 }

@@ -11,8 +11,8 @@ export default function Sponsor() {
                             <img className='max-w-[400px] w-[160px]' src={item.img} alt="kinetic" />
                         </div>
                         <div className=''>
-                            <div className="uppercase font-semibold text-xl mb-2">{item.title}</div>
-                            <div className="uppercase text-xs md:text-sm">{item.desc}</div>
+                            <div className="uppercase title2 mb-2">{item.title}</div>
+                            <div className="uppercase text">{item.desc}</div>
                         </div>
                     </div>
                 ))
