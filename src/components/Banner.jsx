@@ -10,7 +10,7 @@ export default function Banner() {
                         <img className='md:max-w-[240px] max-w-[120px] w-full -mb-2' src="./kinetic.svg" alt="Kinetic" />
                         <span className='line'>presents</span>
                     </div>
-                    <div style={{ fontFamily: 'Chakra Petch' }} className="lg:text-5xl md:text-4xl sm:text-3xl text-[28px] font-bold uppercase flex items-start flex-col gap-0 sm:gap-4 text-[#e5edff]">
+                    <div style={{ fontFamily: '__Chakra_Petch_fc4616' }} className="lg:text-5xl md:text-4xl sm:text-3xl text-[28px] font-bold uppercase flex items-start flex-col gap-0 sm:gap-4 text-[#e5edff]">
                         <span>CUET Inter University Programming Contest</span>
                         <span className="bg-white text-indigo-900 font-bold">CodeStorm 1.0</span>
                     </div>
