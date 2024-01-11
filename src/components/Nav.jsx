@@ -11,7 +11,7 @@ export default function Nav() {
             {/* <Link href='/'>Home</Link>
             <Link href='/about'>About</Link> */}
             {/* <Link className='' href='/contact'>Contact</Link> */}
-            <Link className='glass px-8 py-2 !rounded-sm uppercase font-medium' href='https://forms.gle/UMBRahLzH8TtdRf38' target='blank'>Register</Link>
+            <Link className='glass md:px-8 px-6 text-xs md:text-sm py-2 !rounded-sm uppercase font-medium' href='https://forms.gle/UMBRahLzH8TtdRf38' target='blank'>Register</Link>
         </nav>
     </header>
   )
