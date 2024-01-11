@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 *{
   box-sizing: border-box;
@@ -23,7 +24,8 @@ img{
 body{
   @apply bg-gray-900 text-[#e5edff];
   background: linear-gradient(180deg, #0a0a3a, #191b7f);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; */
+  font-family:'__Raleway_30956c', '__Raleway_Fallback_30956c' !important;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -59,5 +61,5 @@ body{
 }
 
 .title{
-  @apply text-center lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold;
+  @apply text-center lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium md:mt-12 mt-6;
 }

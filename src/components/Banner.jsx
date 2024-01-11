@@ -4,7 +4,7 @@ import CountDown from './CountDown'
 export default function Banner() {
     return (
         <section id="banner" className='container2 md:mb-4 mb-0 relative'>
-            <img className='absolute z-0 opacity-40 top-[-500px] left-[-40%] rotate-[-150deg]' src='./side2.png' alt='side image' />
+            <img className='absolute z-[-1] opacity-40 top-[-500px] left-[-40%] rotate-[-150deg]' src='./side2.png' alt='side image' />
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex flex-col flex-[2.2] md:order-1 ordesr-2">
                     <div className='uppercase md:text-sm text-xs md:tracking-[7px] tracking-[5px] mb-4 flex flex-col gap-4'>

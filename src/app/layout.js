@@ -1,9 +1,10 @@
-import { Chakra_Petch } from 'next/font/google'
+import { Chakra_Petch, Raleway } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Head from 'next/head'
 
 const inter = Chakra_Petch({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
+const inter2 = Raleway({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className={inter.className}>
+      <body className={`${inter2.className} ${inter.className}`}>
         <Nav />
         <img className='fixed z-[-1] opacity-10 top-0' src='./side.png' alt='side image'/>
         {/* <img className='fixed opacity-40 top-[-360px] left-[-35%] rotate-[-140deg]' src='./side2.png' alt='side image'/> */}
