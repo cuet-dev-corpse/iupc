@@ -12,7 +12,7 @@ export default function Banner() {
                     </div>
                     <div style={{ fontFamily: 'Chakra Petch' }} className="lg:text-5xl md:text-4xl sm:text-3xl text-[28px] font-bold uppercase flex items-start flex-col gap-0 sm:gap-4 text-[#e5edff]">
                         <span>CUET Inter University Programming Contest</span>
-                        <span className="bg-[##e5edff] text-indigo-900 font-bold">CodeStorm 1.0</span>
+                        <span className="bg-white text-indigo-900 font-bold">CodeStorm 1.0</span>
                     </div>
                     <p class="mt-4 max-w-lg sm:text-md/relaxed text-white">
                         🔥 Brace yourselves for the National Level coding show of the year!
