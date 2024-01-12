@@ -10,8 +10,8 @@ export default function Developer() {
             {
                 developers.map((e,i)=>(
                     <div className="glass flex items-center p-4 gap-4">
-                        <div className='h-[70px] aspect-square rounded-full bg-gray-700'>
-                            {e.img && <BlurImage className='object-fit h-full w-full rounded-full' src={e.img} alt="" />}
+                        <div className='h-[70px] aspect-square flex justify-center items-center rounded-full bg-gray-600'>
+                            {e.img && <BlurImage className='h-full object-cover w-full rounded-full' src={e.img} alt="" />}
                         </div>
                         <a href={e.linkedin} target='blank' className='flex font-semibold items-center'>
                             <FaLinkedin className='text-xl mr-2 cursor-pointer'/>
@@ -32,13 +32,13 @@ const developers=[
         linkedin: 'https://www.linkedin.com/in/md-shafiqul-hasan-22a7201a1/',
     },
     {
-        img: '',
-        name: 'Mohammed Sajidul Islam',
-        linkedin: 'https://www.linkedin.com/in/dev-shajid/',
+        img: '/dev_2.png',
+        name: 'Zarif Muhtasim',
+        linkedin: 'https://www.linkedin.com/in/zarif-muhtasim-114b67151/',
     },
     {
         img: '',
-        name: 'Zarif',
-        linkedin: ' ',
+        name: 'Mohammed Sajidul Islam',
+        linkedin: 'https://www.linkedin.com/in/dev-shajid/',
     },
 ]

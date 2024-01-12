@@ -8,7 +8,7 @@ export default function Gallery() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {
                 images.map((image, i)=>(
-                    <div key={i} className='w-full bg-gray-700 overflow-hidden aspect-video flex justify-center items-center rounded-md shadow-lg'>
+                    <div key={i} className='w-full bg-gray-600 overflow-hidden aspect-video flex justify-center items-center rounded-md shadow-lg'>
                         <BlurImage id={i} className='h-full w-full object-cover self-center' src={image} alt="Gallery Image" />
                     </div>
                 ))

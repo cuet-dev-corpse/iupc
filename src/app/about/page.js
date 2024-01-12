@@ -1,3 +1,4 @@
+import BlurImage from "@/components/BlurImage";
 import Commite2 from "@/components/Commite";
 import Developer from "@/components/Developer";
 import Gallery from "@/components/Gallery";
@@ -15,7 +16,7 @@ export default function About() {
               CUET Computer Club, born from the aspirations of visionary students at Chittagong University of Engineering and Technology (CUET), emerged to fill a void in organised exploration of computer science and modern technology. Upon entering the campus, particularly the Computer Science and Engineering (CSE) department, the absence of a well-structured computer club was palpable. Inspired by universities globally achieving ICPC world finals, developing groundbreaking apps, and creating viral games, we questioned why we couldn't paint similar success stories. The desire to bridge these gaps, connect with past batch seniors, and chart a new course motivated us. The club envisions a platform not only for competitive programming but for collaboration across diverse fields, recognizing the indispensable role of technology in today's world. In a society where halting technological use would freeze daily life, CUET Computer Club is dedicated to propelling forward in harmony with evolving technology.
             </div>
             <div className="flex-1">
-              <img className="md:max-w-[350px] max-w-[250px]" src="./computer_club_logo.png" alt="" />
+              <BlurImage className="md:max-w-[350px] max-w-[250px]" src="/computer_club_logo.png" alt="" />
             </div>
           </div>
         </div>
