@@ -153,4 +153,49 @@ const members = [
         position: "Assistant Office Secretary",
         img: '/commite/Pinki.jpeg',
     },
+    {
+        name: 'Md. Taosiful Islam',
+        position: "Joint General Secretary",
+        img: '/commite/Md. Taosiful Islam.jpg',
+    },
+    {
+        name: 'Rowshon Akter',
+        position: "Assistant General Secretary",
+        img: '/commite/Rowshon Akter.jpg',
+    },
+    {
+        name: 'Md. Rejwan Kabir Hamim',
+        position: "Programming Secretary",
+        img: '/commite/Hamim.jpg',
+    },
+    {
+        name: 'Zerin Shaima Meem',
+        position: "Assistant Programming Secretary",
+        img: '/commite/Zerin Shaima Meem.jpg',
+    },
+    {
+        name: 'Niaj Mahmud Pial',
+        position: "Assistant Programming Secretary",
+        img: '/commite/Niaj Mahmud Pial.jpg',
+    },
+    {
+        name: 'Tahsin Azad Tias',
+        position: "Organizing Secretary",
+        img: '/commite/Tahsin Azad Tias.jpg',
+    },
+    {
+        name: 'Sayeda Tahmina',
+        position: "Assistant Organizing Secretary",
+        img: '/commite/Sayeda Tahmina.jpg',
+    },
+    {
+        name: 'Md Mehedi Hassan',
+        position: "Organizing Secretary (Programming)",
+        img: '/commite/Md Mehedi Hassan.jpg',
+    },
+    {
+        name: 'Zannatul Fardaush Tripty',
+        position: "Assistant Organizing Secretary (Programming)",
+        img: '/commite/Zannatul.jpg',
+    },
 ]
