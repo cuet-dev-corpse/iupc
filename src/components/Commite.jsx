@@ -44,11 +44,6 @@ const members = [
         img: '/commite/moderator.jpeg',
     },
     {
-        name: 'Hasan Murad',
-        position: "Moderator",
-        img: '/commite/murad_sir.jpeg',
-    },
-    {
         name: 'Animesh Roy',
         position: "Moderator",
         img: '/commite/animesh_sir.jpg',
@@ -59,6 +54,11 @@ const members = [
         img: '/commite/ashim_sir.jpg',
     },
     {
+        name: 'Hasan Murad',
+        position: "Moderator",
+        img: '/commite/murad_sir.jpeg',
+    },
+    {
         name: 'Fahimul Alam Araf',
         position: "President",
         img: '/commite/president.jpeg'
@@ -66,7 +66,7 @@ const members = [
     {
         name: 'Md Ashraful Alam',
         position: "General Secretary",
-        img: '/commite/gs.jpg',
+        img: '/commite/gs.png',
     },
     {
         name: 'Nidita Roy',

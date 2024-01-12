@@ -9,8 +9,8 @@ export default function Contact() {
 
 
         <div className="flex md:flex-row flex-col gap-6 justify-between items-start">
-          <div className="md:max-w-[600px] md:h-[400px] h-[300px] bg-gray-400 rounded-md overflow-hidden w-full flex-1">
-            <iframe className="border-0 w-full md:h-[400px] h-[300px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7374.249638518776!2d91.9710592!3d22.4619433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2fc05a3f700d%3A0x4d4660844f08fe2a!2sCUET%20Main%20Gate!5e0!3m2!1sen!2sbd!4v1704956655264!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className="md:max-w-[600px] md:h-[420px] h-[300px] bg-gray-400 rounded-md overflow-hidden w-full flex-1">
+            <iframe className="border-0 w-full md:h-[420px] h-[300px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7374.249638518776!2d91.9710592!3d22.4619433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2fc05a3f700d%3A0x4d4660844f08fe2a!2sCUET%20Main%20Gate!5e0!3m2!1sen!2sbd!4v1704956655264!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div className="flex-1 flex flex-col gap-8">
             <div>
@@ -65,4 +65,5 @@ const items = [
   ['Fahimul Alam Araf', '01614246654'],
   ['Md Ashraful Alam', '01625400218'],
   ['Nidita Roy', '01766456696'],
+  ['Abir Hassan', '01799278764'],
 ]

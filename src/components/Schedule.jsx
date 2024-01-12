@@ -78,25 +78,20 @@ export default function Schedule() {
 const items1 = [
     [
         {
-            start: '10: 30 AM',
-            end: '10: 00 AM',
-            title: 'Inauguration',
+            start: '01: 00 PM',
+            end: '03: 00 PM',
+            title: 'Inauguration + Kit collection',
         },
         {
-            start: '9: 00 AM',
-            end: '10: 00 AM',
-            title: 'Dedicated Event/Seminar slot for Title and Golden Sopnsor',
-        },
-        {
-            start: '9: 00 AM',
-            end: '10: 00 AM',
+            start: '03: 00 PM',
+            end: '05: 00 PM',
             title: 'Mock Context',
         },
     ],
     [
         {
-            start: '09: 00 AM',
-            end: '02: 00 PM',
+            start: '08: 00 AM',
+            end: '01: 00 PM',
             title: 'Programming Contest (National)',
         },
         {
