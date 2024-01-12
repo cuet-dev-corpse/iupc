@@ -9,6 +9,7 @@ import 'swiper/css';
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
+import BlurImage from './BlurImage';
 
 export default function Slider() {
   return (
@@ -31,7 +32,7 @@ export default function Slider() {
             slides.map((slide, i)=>(
                 <Fragment key={i}>
                     <SwiperSlide className='rounded-md overflow-hidden'>
-                        <img src={slide} alt="" />
+                        <BlurImage src={slide} alt="Slide Image" />
                     </SwiperSlide>
                 </Fragment>
             ))
@@ -42,8 +43,8 @@ export default function Slider() {
 }
 
 const slides=[
-    './slide1.png',
-    './slide1.jpeg',
-    './slide3.jpeg',
-    './slide4.jpeg',
+    '/slides/slide1.png',
+    '/slides/slide1.jpeg',
+    '/slides/slide3.jpeg',
+    '/slides/slide4.jpeg',
 ]

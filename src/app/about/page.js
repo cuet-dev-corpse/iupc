@@ -1,4 +1,4 @@
-import Commite2 from "@/components/Commite2";
+import Commite2 from "@/components/Commite";
 import Developer from "@/components/Developer";
 import Gallery from "@/components/Gallery";
 import Slider from "@/components/Slider";

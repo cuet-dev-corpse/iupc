@@ -1,4 +1,5 @@
 import React from 'react'
+import BlurImage from './BlurImage'
 
 export default function Partner() {
   return (
@@ -10,7 +11,7 @@ export default function Partner() {
             {
                 [3,4,1,2,5].map((img,i)=>(
                     <div key={i} className=''>
-                        <img className='md:max-w-[100px] max-w-[75px] w-full' src={`./partner${img}.png`} alt="" />
+                        <BlurImage id={i} className='md:max-w-[100px] max-w-[75px] w-full' src={`/partner${img}.png`} alt="" />
                     </div>
                 ))
             }
