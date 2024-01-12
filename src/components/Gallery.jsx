@@ -31,4 +31,7 @@ const images=[
     "/gallery/contest_1.jpeg",
     "/gallery/contest_2.jpeg",
     "/gallery/chess_competition.jpeg",
+    "/gallery/img1.jpeg",
+    "/gallery/img2.jpeg",
+    "/gallery/img3.jpeg",
 ]

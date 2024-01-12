@@ -6,17 +6,17 @@ export default function Commite() {
     return (
         <section className='container2 grid'>
             <div className="title">Committee</div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-4">
                 {
                     members.map((member, i) => (
                         <div key={i} className=''>
-                            <div className='p-4 h-full glass min-w-[300px] flex md:flex-col flex-row gap-3 justify-center items-center rounded-md md:text-center'>
-                                <div className='rounded-full bg-gray-700 mx-auto w-[100px] aspect-square overflow-hidden flex items-center justify-center'>
-                                    <BlurImage id={i} className='h-full w-full object-cover' src={member.img} alt="" />
+                            <div className='p-4 h-full glass flex md:flex-col flex-col gap-3 justify-center items-center rounded-md text-center'>
+                                <div className='rounded-full bg-gray-700 mx-auto w-[80px] aspect-square overflow-hidden flex items-center justify-center'>
+                                    {member.img && <BlurImage id={i} className='h-full w-full object-cover' src={member.img} alt="" />}
                                 </div>
                                 <div className='flex-1'>
-                                    <div className='sm:text-xl text-sm font-semibold'>{member.name}</div>
-                                    <div className='font-medium text'>{member.position}</div>
+                                    <div className='sm:text-sm text-xs font-semibold'>{member.name}</div>
+                                    <div className='font-medium text-xs sm:text-sm'>{member.position}</div>
                                 </div>
                             </div>
                         </div>
@@ -87,5 +87,70 @@ const members = [
         name: 'Abir Hassan',
         position: "Finance Secretary",
         img: '/commite/abid.jpeg',
+    },
+    {
+        name: 'Abu Shaleh Md. Toha',
+        position: "Assitant Finance Secretary",
+        img: '/commite/shaleh.jpg',
+    },
+    {
+        name: 'Omar Farook',
+        position: "IT Secretary",
+        img: '/commite/Omar.jpeg',
+    },
+    {
+        name: 'Taohid Khan',
+        position: "Assitant IT Secretary",
+        img: '/commite/Taohid.jpg',
+    },
+    {
+        name: 'Md Osama',
+        position: "Publication Secretary",
+        img: '/commite/Osama.jpg',
+    },
+    {
+        name: 'Md Shimul Mahmud',
+        position: "Assistant Publication Secretary",
+        img: '/commite/Shimul.jpg',
+    },
+    {
+        name: 'Nafis Fuad Pranta',
+        position: "Secretary (Marketing)",
+        img: '/commite/Nafis.jpeg',
+    },
+    {
+        name: 'Saikat Chowdhury',
+        position: "Assistant Secretary (Marketing)",
+        img: '/commite/Saikat.jpg',
+    },
+    {
+        name: 'Binoy Das Gupta',
+        position: "Secretary (Development)",
+        img: '/commite/Binoy.jpg',
+    },
+    {
+        name: 'Mushfikur Rahman',
+        position: "Assistant Secretary (Development)",
+        img: '/commite/Mushfikur.png',
+    },
+    {
+        name: 'Rafi Mahadi Shuvo',
+        position: "Public Relations Secretary",
+        img: '/commite/Rafi.jpg',
+    },
+    {
+        name: 'Sadia Ahmed',
+        position: "Assistant Public Relations Secretary",
+        img: '/commite/Sadia.jpg',
+    },
+    {
+        name: 'Estiak Ahamed Sazid',
+        position: "Office Secretary",
+        img: '/commite/Estiak.jpg',
+    },
+    {
+        name: 'Pinki Akter',
+        position: "Assistant Office Secretary",
+        img: '/commite/Pinki.jpeg',
     },
 ]

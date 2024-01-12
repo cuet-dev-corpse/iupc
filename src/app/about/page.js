@@ -1,5 +1,5 @@
 import BlurImage from "@/components/BlurImage";
-import Commite2 from "@/components/Commite";
+import Commite from "@/components/Commite";
 import Developer from "@/components/Developer";
 import Gallery from "@/components/Gallery";
 import Slider from "@/components/Slider";
@@ -47,8 +47,8 @@ export default function About() {
           </div>
         </div>
 
-        <Commite2 />
         <Gallery />
+        <Commite />
         <Developer/>
 
       </section>
