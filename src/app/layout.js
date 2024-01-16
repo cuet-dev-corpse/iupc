@@ -10,7 +10,7 @@ const inter2 = Raleway({ weight: ['300', '400', '500', '600', '700'], subsets: [
 export const metadata = {
   title: 'CodeStorm 1.0',
   description: '🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.',
-  image: new ImageResponse('/slides/slide1.png')
+  // image: new ImageResponse('https://cuet-iupc-codestorm.vercel.app/slides/slide1.png')
 }
 
 export default function RootLayout({ children }) {
@@ -21,14 +21,14 @@ export default function RootLayout({ children }) {
         <meta content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' name="description" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Cuet CodeStorm 1.0" />
-        <meta property="og:description" content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' />
         <meta property="og:title" content="Cuet CodeStorm 1.0" />
+        <meta property="og:description" content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' />
         <meta property="og:image" content="https://cuet-iupc-codestorm.vercel.app/slides/slide1.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Cuet CodeStorm 1.0" />
         <meta name="twitter:description" content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' />
         <meta name="twitter:image" content="https://cuet-iupc-codestorm.vercel.app/slides/slide1.png" />
-        <meta property="og:url" content="https://cuet-iupc-codestorm.vercel.app/" />
+        {/* <meta property="og:url" content="https://cuet-iupc-codestorm.vercel.app/" /> */}
       </head>
       <body className={`${inter2.className} ${inter.className}`}>
         <Nav />
