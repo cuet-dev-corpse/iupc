@@ -34,7 +34,7 @@ const sponsors=[
         desc:'Brain Craft Limited is a software development company currently specializing in Mobile applications development in the iOS App Store and the Google Play Store.',
     },
     {
-        img: '/w3.jpeg', 
+        img: '/w3.png', 
         title: 'W3 Eden', 
         desc:'W3 Eden is your guide to a secure and enriched online journey, crafting meaningful digital products with curiosity and experimentation. Explore a personalized Eden on the web with their creative insights.',
     },
