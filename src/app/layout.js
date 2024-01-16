@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Cuet CodeStorm 1.0" />
         <meta property="og:description" content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' />
         <meta property="og:image" content="https://cuet-iupc-codestorm.vercel.app/slides/slide1.png" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Cuet CodeStorm 1.0" />
         <meta name="twitter:description" content='🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.' />
         <meta name="twitter:image" content="https://cuet-iupc-codestorm.vercel.app/slides/slide1.png" />
-        {/* <meta property="og:url" content="https://cuet-iupc-codestorm.vercel.app/" /> */}
+        <meta property="og:url" content="https://cuet-iupc-codestorm.vercel.app/" />
+        <meta name="twitter:card" content="summary" />
       </head>
       <body className={`${inter2.className} ${inter.className}`}>
         <Nav />
