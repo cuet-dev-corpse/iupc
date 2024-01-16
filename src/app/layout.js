@@ -9,9 +9,7 @@ const inter2 = Raleway({ weight: ['300', '400', '500', '600', '700'], subsets: [
 export const metadata = {
   title: 'CodeStorm 1.0',
   description: '🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.',
-  openGraph: {
-    images: '/slides/slide1.png',
-  },
+  Image:'/slides/slide1.png'
 }
 
 export default function RootLayout({ children }) {
