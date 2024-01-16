@@ -2,6 +2,7 @@ import { Chakra_Petch, Raleway } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Head from 'next/head'
+import { ImageResponse } from 'next/og'
 
 const inter = Chakra_Petch({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
 const inter2 = Raleway({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
@@ -9,7 +10,7 @@ const inter2 = Raleway({ weight: ['300', '400', '500', '600', '700'], subsets: [
 export const metadata = {
   title: 'CodeStorm 1.0',
   description: '🔥 Brace yourselves for the coding show of the year! Kinetic presents " Cuet Inter University Programming Contest CodeStorm 1.0" organized by CUET Computer Club.',
-  Image:'/slides/slide1.png'
+  image:new ImageResponse('/slides/slide1.png')
 }
 
 export default function RootLayout({ children }) {
