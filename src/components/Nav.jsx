@@ -34,7 +34,7 @@ export default function Nav() {
         <Link onClick={CloseMenu} href='/'>Home</Link>
         <Link onClick={CloseMenu} href='/about'>About</Link>
         <Link onClick={CloseMenu} className='' href='/contact'>Contact</Link>
-        <Link onClick={CloseMenu} className='glass md:px-8 px-6 py-2 uppercase font-medium' href='https://forms.gle/UMBRahLzH8TtdRf38' target='blank'>Register</Link>
+        <Link onClick={CloseMenu} className='glass md:px-8 px-6 py-2 uppercase font-medium' href='https://forms.gle/Z8Q7tR8cyZ5Xtcw39' target='blank'>Register</Link>
       </nav>
       <div
         className='overlay sm:hidden'
